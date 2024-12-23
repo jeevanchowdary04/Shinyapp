@@ -1,0 +1,25 @@
+---
+title: "Pitch for Shiny App"
+author: "Jeevan Chowdary"
+output: rmarkdown::html_vignette
+---
+
+## Slide 1: Introduction to the Shiny App
+
+The Shiny app allows users to input their name and get a personalized greeting. It includes:
+- A text input for the user's name.
+- A button to generate the greeting.
+
+## Slide 2: App Input and Output
+
+The app takes user input (a name) and produces an output (a greeting message). Users can enter their name and click **Go!** to see the result.
+
+## Slide 3: How It Works (Server Side)
+
+The server listens for user input and processes the text input using the `textInput()` widget. When the button is clicked, the greeting is displayed in the main panel.
+
+## Slide 4: Example of App Output
+
+```{r}
+# Example of what the output might look like:
+paste("Hello, John Doe!")
